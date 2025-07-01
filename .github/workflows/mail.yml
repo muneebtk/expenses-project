@@ -22,7 +22,7 @@ jobs:
           pip install -r expense_track_api/requirements.txt
         
       - name: Debug directory
-        run: dir D:\a\expenses-project\expense_track_api
+        run: dir D:\a\expense_track_api
         
       
       - name: Navigate to project folder
