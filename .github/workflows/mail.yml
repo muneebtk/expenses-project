@@ -21,6 +21,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r expense_track_api/requirements.txt
         
+      - name: List workspace
+        run: dir D:\a\
+
       - name: Debug directory
         run: dir D:\a\expense_track_api
         
