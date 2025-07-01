@@ -21,8 +21,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r expense_track_api/requirements.txt
       
+      - name: Navigate to project folder
+        run: cd D:/a/expenses-project/expenses-project
+
       - name: Run tests
         run: python manage.py test
+      
+      - name: Run migrations
+        run: python manage.py migrate
   
   deploy:
     runs-on: windows-latest
