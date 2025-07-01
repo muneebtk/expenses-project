@@ -25,7 +25,7 @@ jobs:
         run: dir D:\a\
       
       - name: Navigate to project folder
-        working-directory: \expense_track_api
+        working-directory: .expenses-project\expense_track_api
         run: python manage.py migrate
 
 
