@@ -22,7 +22,7 @@ jobs:
           pip install -r expense_track_api/requirements.txt
       
       - name: Navigate to project folder
-        run: cd D:/a/expenses-project/expense_track_api
+        run: cd D:/a/expense_track_api
 
       - name: Run tests
         run: python manage.py test
