@@ -23,13 +23,9 @@ jobs:
         
       - name: List workspace
         run: dir D:\a\
-
-      - name: Debug directory
-        run: dir D:\a\expense_track_api
-        
       
       - name: Navigate to project folder
-        working-directory: D:\a\expenses-project\expense_track_api
+        working-directory: ./expenses-project/expense_track_api
         run: python manage.py migrate
 
 
