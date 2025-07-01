@@ -22,7 +22,7 @@ jobs:
           pip install -r expense_track_api/requirements.txt
       
       - name: Navigate to project folder
-        working-directory: D:/a/expense_track_api
+        working-directory: D:/a/expenses-project/expense_track_api
         run: python manage.py migrate
 
 
